@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Superstore Tableau Analytics — 5-Week Deliverables
 
 A five-week data-analytics internship project built around the public
@@ -144,3 +145,6 @@ re-run unless you want to refresh the underlying numbers.
 - All `.docx` files are generated with the [`docx`](https://www.npmjs.com/package/docx) npm package and open natively in Microsoft Word, Google Docs, and LibreOffice.
 - Chart/diagram images are generated with `matplotlib` and embedded directly into each report — no manual screenshots.
 - The Week 5 performance figures are explicitly labeled as **planning estimates**, not measurements from a live Tableau Server, since no published workbook exists in this environment.
+=======
+# Tableau-Performance-Optimization-and-Interactive-Feature-Enhancement
+>>>>>>> 4961ed0a64c19eb0a44724891b8626882180a1a7
