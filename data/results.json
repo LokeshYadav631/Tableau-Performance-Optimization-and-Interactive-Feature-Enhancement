@@ -1,0 +1,603 @@
+{
+  "total_sales": 2633128.87,
+  "total_profit": 262633.5,
+  "overall_margin": 0.09974198490330631,
+  "total_orders": 7657,
+  "total_line_items": 9994,
+  "unique_customers": 799,
+  "avg_discount": 0.1401500900540324,
+  "avg_order_value": 343.88518610421835,
+  "date_min": "2015-01-01",
+  "date_max": "2018-12-27",
+  "pct_negative_profit_lines": 0.10236141685011006,
+  "describe": {
+    "Sales": {
+      "count": 9994.0,
+      "mean": 263.47,
+      "std": 531.5,
+      "min": 2.05,
+      "25%": 22.18,
+      "50%": 58.02,
+      "75%": 246.46,
+      "max": 6584.79
+    },
+    "Quantity": {
+      "count": 9994.0,
+      "mean": 3.98,
+      "std": 2.0,
+      "min": 1.0,
+      "25%": 2.0,
+      "50%": 4.0,
+      "75%": 6.0,
+      "max": 7.0
+    },
+    "Discount": {
+      "count": 9994.0,
+      "mean": 0.14,
+      "std": 0.17,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.2,
+      "max": 0.7
+    },
+    "Profit": {
+      "count": 9994.0,
+      "mean": 26.28,
+      "std": 115.58,
+      "min": -1039.34,
+      "25%": 3.39,
+      "50%": 9.59,
+      "75%": 26.1,
+      "max": 2083.29
+    },
+    "Profit Margin": {
+      "count": 9994.0,
+      "mean": 0.21,
+      "std": 0.15,
+      "min": -0.29,
+      "25%": 0.1,
+      "50%": 0.23,
+      "75%": 0.32,
+      "max": 0.53
+    },
+    "Ship Days": {
+      "count": 9994.0,
+      "mean": 4.19,
+      "std": 2.02,
+      "min": 0.0,
+      "25%": 3.0,
+      "50%": 4.0,
+      "75%": 6.0,
+      "max": 7.0
+    }
+  },
+  "by_category": [
+    {
+      "Category": "Technology",
+      "Sales": 1199810.12,
+      "Profit": 158333.92,
+      "Orders": 1833,
+      "Margin": 0.13
+    },
+    {
+      "Category": "Furniture",
+      "Sales": 1082079.22,
+      "Profit": 42205.53,
+      "Orders": 1948,
+      "Margin": 0.04
+    },
+    {
+      "Category": "Office Supplies",
+      "Sales": 351239.53,
+      "Profit": 62094.05,
+      "Orders": 5179,
+      "Margin": 0.18
+    }
+  ],
+  "by_subcategory": [
+    {
+      "Category": "Technology",
+      "Sub-Category": "Machines",
+      "Sales": 459775.45,
+      "Profit": -28221.38,
+      "Margin": -0.06
+    },
+    {
+      "Category": "Furniture",
+      "Sub-Category": "Chairs",
+      "Sales": 354392.87,
+      "Profit": 35867.62,
+      "Margin": 0.1
+    },
+    {
+      "Category": "Furniture",
+      "Sub-Category": "Bookcases",
+      "Sales": 330869.37,
+      "Profit": 8807.31,
+      "Margin": 0.03
+    },
+    {
+      "Category": "Technology",
+      "Sub-Category": "Copiers",
+      "Sales": 313378.68,
+      "Profit": 108381.26,
+      "Margin": 0.35
+    },
+    {
+      "Category": "Furniture",
+      "Sub-Category": "Tables",
+      "Sales": 304820.28,
+      "Profit": -19648.17,
+      "Margin": -0.06
+    },
+    {
+      "Category": "Technology",
+      "Sub-Category": "Phones",
+      "Sales": 269705.8,
+      "Profit": 43721.53,
+      "Margin": 0.16
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Appliances",
+      "Sales": 118656.96,
+      "Profit": 5308.35,
+      "Margin": 0.04
+    },
+    {
+      "Category": "Technology",
+      "Sub-Category": "Accessories",
+      "Sales": 113822.61,
+      "Profit": 26597.99,
+      "Margin": 0.23
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Storage",
+      "Sales": 98400.09,
+      "Profit": 21438.76,
+      "Margin": 0.22
+    },
+    {
+      "Category": "Furniture",
+      "Sub-Category": "Furnishings",
+      "Sales": 91996.7,
+      "Profit": 17178.77,
+      "Margin": 0.19
+    },
+    {
+      "Category": "Technology",
+      "Sub-Category": "Wearables",
+      "Sales": 43127.58,
+      "Profit": 7854.52,
+      "Margin": 0.18
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Binders",
+      "Sales": 41853.64,
+      "Profit": 8480.47,
+      "Margin": 0.2
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Paper",
+      "Sales": 27124.6,
+      "Profit": 10059.16,
+      "Margin": 0.37
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Supplies",
+      "Sales": 18426.87,
+      "Profit": 296.59,
+      "Margin": 0.02
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Art",
+      "Sales": 18305.78,
+      "Profit": 5877.4,
+      "Margin": 0.32
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Envelopes",
+      "Sales": 13460.56,
+      "Profit": 5123.87,
+      "Margin": 0.38
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Labels",
+      "Sales": 8561.06,
+      "Profit": 3547.33,
+      "Margin": 0.41
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Fasteners",
+      "Sales": 6449.97,
+      "Profit": 1962.12,
+      "Margin": 0.3
+    }
+  ],
+  "top5_profit_sub": [
+    {
+      "Category": "Technology",
+      "Sub-Category": "Copiers",
+      "Sales": 313378.68,
+      "Profit": 108381.26,
+      "Margin": 0.35
+    },
+    {
+      "Category": "Technology",
+      "Sub-Category": "Phones",
+      "Sales": 269705.8,
+      "Profit": 43721.53,
+      "Margin": 0.16
+    },
+    {
+      "Category": "Furniture",
+      "Sub-Category": "Chairs",
+      "Sales": 354392.87,
+      "Profit": 35867.62,
+      "Margin": 0.1
+    },
+    {
+      "Category": "Technology",
+      "Sub-Category": "Accessories",
+      "Sales": 113822.61,
+      "Profit": 26597.99,
+      "Margin": 0.23
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Storage",
+      "Sales": 98400.09,
+      "Profit": 21438.76,
+      "Margin": 0.22
+    }
+  ],
+  "bottom5_profit_sub": [
+    {
+      "Category": "Technology",
+      "Sub-Category": "Machines",
+      "Sales": 459775.45,
+      "Profit": -28221.38,
+      "Margin": -0.06
+    },
+    {
+      "Category": "Furniture",
+      "Sub-Category": "Tables",
+      "Sales": 304820.28,
+      "Profit": -19648.17,
+      "Margin": -0.06
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Supplies",
+      "Sales": 18426.87,
+      "Profit": 296.59,
+      "Margin": 0.02
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Fasteners",
+      "Sales": 6449.97,
+      "Profit": 1962.12,
+      "Margin": 0.3
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Labels",
+      "Sales": 8561.06,
+      "Profit": 3547.33,
+      "Margin": 0.41
+    }
+  ],
+  "monthly_sales_head": [
+    {
+      "Order Month": "2015-01-01 00:00:00",
+      "Sales": 32598.35,
+      "Profit": 2045.74
+    },
+    {
+      "Order Month": "2015-02-01 00:00:00",
+      "Sales": 25608.51,
+      "Profit": 2118.52
+    },
+    {
+      "Order Month": "2015-03-01 00:00:00",
+      "Sales": 35328.59,
+      "Profit": 2041.86
+    }
+  ],
+  "yearly": [
+    {
+      "Year": 2015,
+      "Sales": 522171.37,
+      "Profit": 49428.04
+    },
+    {
+      "Year": 2016,
+      "Sales": 577110.15,
+      "Profit": 60185.73
+    },
+    {
+      "Year": 2017,
+      "Sales": 737679.68,
+      "Profit": 75314.28
+    },
+    {
+      "Year": 2018,
+      "Sales": 796167.67,
+      "Profit": 77705.45
+    }
+  ],
+  "cagr_sales": 0.15096953194550222,
+  "peak_month": "Dec",
+  "peak_month_share": 0.14838618969682257,
+  "by_region": [
+    {
+      "Region": "West",
+      "Sales": 828468.23,
+      "Profit": 100948.86,
+      "Margin": 0.12
+    },
+    {
+      "Region": "East",
+      "Sales": 778623.93,
+      "Profit": 76131.28,
+      "Margin": 0.1
+    },
+    {
+      "Region": "Central",
+      "Sales": 578278.66,
+      "Profit": 45307.45,
+      "Margin": 0.08
+    },
+    {
+      "Region": "South",
+      "Sales": 447758.05,
+      "Profit": 40245.91,
+      "Margin": 0.09
+    }
+  ],
+  "top10_state_sales": [
+    {
+      "State": "Washington",
+      "Sales": 102689.38,
+      "Profit": 11588.52,
+      "Margin": 0.11
+    },
+    {
+      "State": "Oregon",
+      "Sales": 100320.73,
+      "Profit": 12088.04,
+      "Margin": 0.12
+    },
+    {
+      "State": "Virginia",
+      "Sales": 95533.66,
+      "Profit": 10856.1,
+      "Margin": 0.11
+    },
+    {
+      "State": "Colorado",
+      "Sales": 95179.38,
+      "Profit": 12518.08,
+      "Margin": 0.13
+    },
+    {
+      "State": "New York",
+      "Sales": 92010.12,
+      "Profit": 8684.45,
+      "Margin": 0.09
+    },
+    {
+      "State": "Delaware",
+      "Sales": 88016.46,
+      "Profit": 6801.32,
+      "Margin": 0.08
+    },
+    {
+      "State": "Maine",
+      "Sales": 81192.76,
+      "Profit": 5777.83,
+      "Margin": 0.07
+    },
+    {
+      "State": "Utah",
+      "Sales": 80729.88,
+      "Profit": 9600.75,
+      "Margin": 0.12
+    },
+    {
+      "State": "New Mexico",
+      "Sales": 80712.9,
+      "Profit": 9448.06,
+      "Margin": 0.12
+    },
+    {
+      "State": "Connecticut",
+      "Sales": 77613.42,
+      "Profit": 7219.86,
+      "Margin": 0.09
+    }
+  ],
+  "bottom10_state_profit": [
+    {
+      "State": "Georgia",
+      "Sales": 44501.75,
+      "Profit": 1923.04,
+      "Margin": 0.04
+    },
+    {
+      "State": "Illinois",
+      "Sales": 56639.98,
+      "Profit": 1996.23,
+      "Margin": 0.04
+    },
+    {
+      "State": "Wisconsin",
+      "Sales": 57994.0,
+      "Profit": 2140.06,
+      "Margin": 0.04
+    },
+    {
+      "State": "Tennessee",
+      "Sales": 43431.33,
+      "Profit": 2183.91,
+      "Margin": 0.05
+    },
+    {
+      "State": "Mississippi",
+      "Sales": 44225.42,
+      "Profit": 2316.38,
+      "Margin": 0.05
+    },
+    {
+      "State": "Kansas",
+      "Sales": 56442.25,
+      "Profit": 3288.46,
+      "Margin": 0.06
+    },
+    {
+      "State": "Arkansas",
+      "Sales": 42402.1,
+      "Profit": 3509.96,
+      "Margin": 0.08
+    },
+    {
+      "State": "Ohio",
+      "Sales": 56799.79,
+      "Profit": 4256.38,
+      "Margin": 0.07
+    },
+    {
+      "State": "Michigan",
+      "Sales": 61244.29,
+      "Profit": 4308.81,
+      "Margin": 0.07
+    },
+    {
+      "State": "Massachusetts",
+      "Sales": 64423.97,
+      "Profit": 4452.7,
+      "Margin": 0.07
+    }
+  ],
+  "corr_discount_profitmargin": -0.6604483101187395,
+  "corr_discount_profit": -0.24818196780389326,
+  "discount_band_margin": [
+    {
+      "Discount": "0%",
+      "AvgMargin": 0.285,
+      "Lines": 5062
+    },
+    {
+      "Discount": "1-20%",
+      "AvgMargin": 0.195,
+      "Lines": 3124
+    },
+    {
+      "Discount": "21-30%",
+      "AvgMargin": 0.161,
+      "Lines": 461
+    },
+    {
+      "Discount": "31-50%",
+      "AvgMargin": -0.036,
+      "Lines": 1160
+    },
+    {
+      "Discount": "51-80%",
+      "AvgMargin": -0.058,
+      "Lines": 187
+    }
+  ],
+  "by_segment": [
+    {
+      "Segment": "Consumer",
+      "Sales": 1359175.11,
+      "Profit": 129525.03,
+      "Customers": 799,
+      "Margin": 0.1
+    },
+    {
+      "Segment": "Corporate",
+      "Sales": 806431.34,
+      "Profit": 82065.06,
+      "Customers": 784,
+      "Margin": 0.1
+    },
+    {
+      "Segment": "Home Office",
+      "Sales": 467522.42,
+      "Profit": 51043.41,
+      "Customers": 714,
+      "Margin": 0.11
+    }
+  ],
+  "by_ship_mode": [
+    {
+      "Ship Mode": "First Class",
+      "Sales": 393229.14,
+      "AvgDays": 1.5,
+      "Lines": 1477
+    },
+    {
+      "Ship Mode": "Same Day",
+      "Sales": 139856.85,
+      "AvgDays": 0.0,
+      "Lines": 605
+    },
+    {
+      "Ship Mode": "Second Class",
+      "Sales": 513287.46,
+      "AvgDays": 3.49,
+      "Lines": 1889
+    },
+    {
+      "Ship Mode": "Standard Class",
+      "Sales": 1586755.42,
+      "AvgDays": 5.49,
+      "Lines": 6023
+    }
+  ],
+  "correlation_matrix": {
+    "Sales": {
+      "Sales": 1.0,
+      "Quantity": 0.242,
+      "Discount": 0.073,
+      "Profit": 0.342
+    },
+    "Quantity": {
+      "Sales": 0.242,
+      "Quantity": 1.0,
+      "Discount": -0.017,
+      "Profit": 0.113
+    },
+    "Discount": {
+      "Sales": 0.073,
+      "Quantity": -0.017,
+      "Discount": 1.0,
+      "Profit": -0.248
+    },
+    "Profit": {
+      "Sales": 0.342,
+      "Quantity": 0.113,
+      "Discount": -0.248,
+      "Profit": 1.0
+    }
+  },
+  "outlier_count": 1630,
+  "outlier_pct": 0.16309785871522914,
+  "outlier_fences": [
+    -30.665,
+    60.155
+  ],
+  "pareto_top20pct_customers_sales_share": 0.4041965936896968
+}

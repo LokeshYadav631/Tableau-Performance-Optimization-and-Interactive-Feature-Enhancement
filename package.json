@@ -1,0 +1,10 @@
+{
+  "name": "superstore-tableau-analytics",
+  "version": "1.0.0",
+  "description": "5-week Tableau/data-analytics internship deliverables built on the Sample - Superstore dataset",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "docx": "^9.0.0"
+  }
+}
