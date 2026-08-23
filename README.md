@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Superstore Tableau Analytics — 5-Week Deliverables
 
 A five-week data-analytics internship project built around the public
@@ -14,6 +13,7 @@ final Word (`.docx`) report submitted for that week.
 | 3 | [`week3_data_story/`](week3_data_story) | `Interactive_Data_Story_Plan.docx` | Interactive data storytelling (storyboard, narrative arc) |
 | 4 | [`week4_advanced_charts/`](week4_advanced_charts) | `Advanced_Chart_Techniques_Calculation_Insights.docx` | Advanced charts (bullet/waterfall/control/bump) & calculated fields |
 | 5 | [`week5_performance_optimization/`](week5_performance_optimization) | `Performance_Optimization_Interactivity_Plan.docx` | Performance optimization & interactivity enhancement plan |
+| 6 | [`week6_final_integration/`](week6_final_integration) | `Final_Integration_Evaluation_Report.docx` | Final integration, critical evaluation, and capstone reporting |
 
 The finished `.docx` files are already included in each folder — you
 don't need to run anything to read the deliverables. The scripts are
@@ -59,6 +59,11 @@ superstore-tableau-analytics/
 │   ├── build_report5.js
 │   ├── mockups/
 │   └── Performance_Optimization_Interactivity_Plan.docx
+├── week6_final_integration/
+│   ├── make_diagrams.py               # six-week journey timeline + integrated architecture diagram
+│   ├── build_report6.js               # assembles the capstone report (reads mockups/ from weeks 2-5 too)
+│   ├── mockups/
+│   └── Final_Integration_Evaluation_Report.docx
 ├── requirements.txt
 ├── package.json
 └── README.md
@@ -134,17 +139,23 @@ python3 make_diagrams1.py
 python3 make_diagrams2.py
 node build_report5.js
 cd ..
+
+# Week 6 — capstone diagrams + integration report
+# (reads mockup images from weeks 2-5, so build those first)
+cd week6_final_integration
+python3 make_diagrams.py
+node build_report6.js
+cd ..
 ```
 
 Weeks 2–5 depend only on `data/results.json` (already included) for
 the figures quoted in their reports — they do not need Week 1 to be
-re-run unless you want to refresh the underlying numbers.
+re-run unless you want to refresh the underlying numbers. Week 6
+additionally reads mock-up images directly from the `week2`–`week5`
+folders, so build those first if starting from a clean checkout.
 
 ## Notes
 
 - All `.docx` files are generated with the [`docx`](https://www.npmjs.com/package/docx) npm package and open natively in Microsoft Word, Google Docs, and LibreOffice.
 - Chart/diagram images are generated with `matplotlib` and embedded directly into each report — no manual screenshots.
 - The Week 5 performance figures are explicitly labeled as **planning estimates**, not measurements from a live Tableau Server, since no published workbook exists in this environment.
-=======
-# Tableau-Performance-Optimization-and-Interactive-Feature-Enhancement
->>>>>>> 4961ed0a64c19eb0a44724891b8626882180a1a7
